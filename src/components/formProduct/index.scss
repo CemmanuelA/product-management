@@ -44,6 +44,7 @@
         flex: 0 0 100%;
         display: flex;
         justify-content: center;
+        height: 400px;
         img {
             height: 80%;
             width: 80%;
@@ -112,7 +113,7 @@
             }
         }
         .img-container {
-            flex: 0 0 60%;
+            flex: 0 0 40%;
         }
     }
 }
@@ -123,17 +124,6 @@
         .fields-container {
             .in-container {
                 margin-bottom: 0 ;
-            }
-        }
-    }
-}
-
-// large desktop
-@media only screen and (min-width: 1200px) {
-    .form-container {
-        .img-container {
-            img {
-
             }
         }
     }
