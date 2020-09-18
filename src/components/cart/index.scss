@@ -1,0 +1,22 @@
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+h1 {
+    font-family: 'Narrow-medium';
+}
+
+
+// desktop
+@media only screen and (min-width: 992px) {
+    .container {
+        flex-direction: row;
+    }
+}

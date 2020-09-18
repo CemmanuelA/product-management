@@ -1,0 +1,43 @@
+.resume-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 1rem;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &:nth-child(1) {
+            display: flex;
+            align-items: center;
+            h1 {
+                flex: 0.4
+            }
+            span {
+                flex: 0.6;
+                text-align: center;
+            }
+        }
+        button {
+            margin-top: 1rem;
+        }
+    }
+}
+
+h1 {
+    font-family: 'Narrow-regular';
+}
+
+span {
+    font-family: 'Narrow-regular';
+}
+
+// desktop
+@media only screen and (min-width: 992px) {
+    .resume-container {
+        div {
+            flex-direction: row;
+        }
+    }
+}
